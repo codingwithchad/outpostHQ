@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import OutpostHQ from './landingpage.jsx'
+import OutpostHQ from './landingpage.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <OutpostHQ />
-  </React.StrictMode>
+  React.createElement(React.StrictMode, null,
+    React.createElement(OutpostHQ)
+  )
 )
