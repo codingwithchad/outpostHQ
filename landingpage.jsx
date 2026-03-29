@@ -1058,7 +1058,7 @@ export default function OutpostHQ() {
     setLoading(true);
     setError('');
     try {
-      const response = await fetch('https://formspree.io/f/mbjqwbzw', {
+      const response = await fetch('https://formspree.io/f/mvzvkykv', {
         method: 'POST',
         body: JSON.stringify({ email, name, interest }),
         headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' }
